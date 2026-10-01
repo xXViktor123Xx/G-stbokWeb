@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gästbok</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Gästbok</h1>
+
+    <h2>Skriv ett inlägg</h2>
+    [[FEL]]
+    <form method="post" action="/">
+      <p>
+        <label for="name">Namn</label><br />
+        <input type="text" id="name" name="name" maxlength="60" required />
+      </p>
+      <p>
+        <label for="comment">Inlägg</label><br />
+        <textarea
+          id="comment"
+          name="comment"
+          rows="5"
+          cols="40"
+          maxlength="500"
+          required
+        ></textarea>
+      </p>
+      <button type="submit">Skicka</button>
+    </form>
+
+    <h2>Inlägg ([[ANTAL]])</h2>
+    [[INLAGG]]
+  </body>
+</html>
